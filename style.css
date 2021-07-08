@@ -71,7 +71,7 @@ header nav ul li a:hover{
 }
 .h{
    font-family: 'Otomanopee One', sans-serif;
-   margin: 9px 90px auto;
+   margin: 9px 100px auto;
   display: flex;
 }
 
@@ -106,7 +106,7 @@ header nav ul li a:hover{
     overflow: scroll;
     flex-direction: row-reverse;
     background-color: #ffe11b;
-    margin-left: 90px;
+    margin-left: 100px;
     width: 85vw;
     
 }
