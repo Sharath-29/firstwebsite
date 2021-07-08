@@ -69,12 +69,12 @@ header nav ul li a:hover{
 .btn:hover{
     font-weight: bolder;
 }
-
 .h{
    font-family: 'Otomanopee One', sans-serif;
    margin: 9px 90px auto;
   display: flex;
 }
+
 .lines{
     padding-left: 50px;
     font-family: 'Otomanopee One', sans-serif;
