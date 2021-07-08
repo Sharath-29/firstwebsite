@@ -69,7 +69,7 @@ header nav ul li a:hover{
 .btn:hover{
     font-weight: bolder;
 }
-.slider{
+.carousel slide{
     margin: 10px auto 0 auto;
     width: 180vh;
 }
