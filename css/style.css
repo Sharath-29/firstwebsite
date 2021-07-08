@@ -3,14 +3,7 @@
     padding: 0;
 }
 header{
-    background-color: lightblue;
-    height: 3px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    z-index: 1;
-    
-    
+    background-color: lightblue;  
 }
 .logo{
     margin: 15px;
@@ -19,32 +12,30 @@ header{
 .container{
     min-height: calc(100vh - 3px - 15vh);
 }
-header nav{
+nav{
     display: flex;
+    
 }
-
-header nav ul{
+nav ul{
     display: flex;
+    align-items: center;
+}
+ nav ul li{
+    padding: 35px;
     list-style: none;
     font-family: 'Playfair Display', serif;
-    
-    
 }
-header nav ul li{
-    padding: 35px;
-    
-}
-header nav ul li a{
+ nav ul li a{
     text-decoration: none;
     color: black;
     
 }
-header nav ul li a:hover{
+ nav ul li a:hover{
     
     font-weight:bolder ;
     color: rgb(88, 56, 6);   
 }
-.search {
+.search1 {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -52,10 +43,14 @@ header nav ul li a:hover{
     margin: -1px; 
     padding: 5px;  
 }
-.search input{
+.search1 input{
+    display: flex;
     border-radius: 5px;
     margin: 0px 15px 0 61px;
     padding: 3px;
+    width:30vw; 
+    height: 28px;
+   
 }
 .btn{
    border-radius: 5px;
@@ -71,7 +66,8 @@ header nav ul li a:hover{
 }
 .slider{
     margin: 10px auto 0 auto;
-    width: 180vh;
+    width: 80vw;
+    overflow: hidden;
 }
 .h{
    font-family: 'Otomanopee One', sans-serif;
